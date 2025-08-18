@@ -47,4 +47,4 @@ Jupyter Notebooks: These notebooks contain all the necessary commands to install
     3. ```modelling.ipynb```: This notebook contains the machine learning approach to predict anomalous fires, including the model training and performance benchmarking of multiple AI models.
 
 ## References
-Please refer to the ```milestone_d.docx``` report for the full list of references.
+Please refer to the ```final_project_report.pdf``` report for the full list of references.
