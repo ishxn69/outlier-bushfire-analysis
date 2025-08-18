@@ -7,21 +7,23 @@ The final model, a supervised Random Forest classifier, was trained on a compreh
 <img width="950" height="696" alt="geo_fire_distribution_and_stations" src="https://github.com/user-attachments/assets/f888ca68-3e35-4ee9-88c8-35c86f44e8c0" />
 
 ## Research Methodology
-The project followed a systematic five-phase approach:
-<img width="960" height="720" alt="diagram" src="https://github.com/user-attachments/assets/8087f7f2-7477-47dd-b185-37d05b9db0e3" />
-### Data Acquisition and Preprocessing: 
+### The Project Followed a Systematic Five-Phase Approach:
+
+<img width="951" height="449" alt="Untitled" src="https://github.com/user-attachments/assets/2685eddc-84f7-4d19-9260-f257366f976a" />
+
+### 1.  Data Acquisition and Preprocessing: 
 Raw fire data from NASA FIRMS and daily meteorological data from the Open-Meteo API were collected and filtered.
 
-### Exploratory Data Analysis (EDA): 
+### 2. Exploratory Data Analysis (EDA): 
 A detailed analysis was conducted to uncover patterns and refine the research question. This phase revealed a significant number of fires were due to prescribed burning, which led to a more specific focus on high-intensity fires in low-risk seasons.
 
-### Feature Engineering and Data Integration: 
+### 3. Feature Engineering and Data Integration: 
 New features, such as temperature range, were engineered from the raw data. Fire incidents were then merged with the nearest weather station data to create a single, unified analytical dataset.
 
-### Anomaly Definition and Dataset Preparation: 
+### 4. Anomaly Definition and Dataset Preparation: 
 Anomalous fires were precisely defined as high-intensity fires (top 10% of Fire Radiative Power) occurring during the low-risk season (May-August). This created a final dataset with a significant class imbalance that required specific handling.
 
-### Model Training and Evaluation: 
+### 5. Model Training and Evaluation: 
 A suite of supervised and unsupervised models was trained and evaluated. Techniques like class weighting were applied to the supervised models to address the data imbalance. The F1-Score was used as the primary metric for performance evaluation.
 
 ## Project Contents and Usage
