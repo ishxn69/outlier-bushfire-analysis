@@ -29,6 +29,8 @@ A suite of supervised and unsupervised models was trained and evaluated. Techniq
 ## Project Contents and Usage
 The project repository contains all the necessary components to replicate the analysis and findings:
 
+Documentation: The ```final_project_report.pdf``` file is a report that discusses the project approach and findings in detail.
+
 Datasets: The required fire and weather data are included in the repository.
 
 Jupyter Notebooks: These notebooks contain all the necessary commands to install the required packages and run the analysis. They will automatically generate the processed parquet files and perform the analysis, provided the raw datasets are in the same folder. The order of the notebooks is as follows: ```combine_datasets.ipynb```, ```seasonal_analysis_investigation.ipynb```, ```modelling.ipynb```.
